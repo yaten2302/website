@@ -36,7 +36,7 @@ export default function NavItemWithSmallDropdown({
     <div
       onMouseEnter={showDropdown}
       onMouseLeave={hideDropdown}
-      className="relative flex items-center py-3 transition duration-150 ease-in-out cursor-pointer"
+      className="relative flex items-center py-3 px-6 transition duration-150 ease-in-out cursor-pointer"
     >
       <div className="flex align-center text-gray-600 hover:text-primary-300">
         <div className="font-medium mr-2">{heading}</div>

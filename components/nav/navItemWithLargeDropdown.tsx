@@ -41,11 +41,11 @@ export default function NavItemWithLargeDropdown({
     <div
       onMouseEnter={showDropdown}
       onMouseLeave={hideDropdown}
-      className="relative flex items-center py-3 transition duration-150 ease-in-out cursor-pointer"
+      className="relative  flex items-center py-3 transition duration-150 ease-in-out cursor-pointer"
     >
-      <div className="flex align-center text-gray-600">
+      <div className="flex align-center text-gray-600  ">
         <div>
-          <div className="font-medium text-gray-600 px-3 py-3 flex items-center transition duration-150 ease-in-out whitespace-nowrap relative group">
+          <div className="font-medium  hover:text-primary-300 text-gray-600 px-3 py-3 flex items-center transition duration-150 ease-in-out whitespace-nowrap relative group">
             {heading}
             <span className="absolute text-primary-300 left-0 bottom-0 w-full h-[.195rem] bg-current transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out"></span>
           </div>

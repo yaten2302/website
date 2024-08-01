@@ -13,7 +13,7 @@ import NavItemWithSmallDropdown, {
 } from "@/components/nav/navItemWithSmallDropdown";
 //import { PillarPages } from "../utils/resources";
 import NavItemWithLargeDropdown from "../nav/navItemWithLargeDropdown";
-import { ProductList, SocialsList, SolutionsList } from "../utils/resources";
+import { AboutList, ProductList, SocialsList, SolutionsList } from "../utils/resources";
 export default function Header() {
   const [top, setTop] = useState<boolean>(true);
   const [starsCount, setStarsCount] = useState<number>(1000);
@@ -98,6 +98,12 @@ export default function Header() {
                   dropdownProductData={ProductList}
                   dropdownSolutionsData={SolutionsList}
                   dropdownSocialsData={SocialsList}
+                />
+              </li>
+              <li>
+              <NavItemWithSmallDropdown
+                  heading="About"
+                  dropdownData={AboutList}
                 />
               </li>
             </ul>

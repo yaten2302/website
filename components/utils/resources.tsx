@@ -81,3 +81,15 @@ export const SocialsList = [
     ],
   },
 ];
+
+export const AboutList = [
+  {
+    heading: "About Us",
+    links: [
+      { pagelink: "/", pageName: "Newsletter" },
+      { pagelink: "/", pageName: "Career" },
+      { pagelink: "/", pageName: "WWO" },
+      { pagelink: "/", pageName: "Case Studies" },
+    ],
+  },
+];
